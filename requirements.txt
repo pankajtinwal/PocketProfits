@@ -1,0 +1,5 @@
+python-telegram-bot
+python-dotenv
+google-generativeai
+yfinance==0.2.61
+pandas
