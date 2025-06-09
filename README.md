@@ -1,6 +1,6 @@
-# Finance Bot AI
+# PocketProfits (Finance Bot AI)
 
-Finance Bot AI is a Telegram bot designed to provide stock analysis and financial insights. It leverages the Google Gemini API for AI-driven analysis and yfinance for fetching stock data. For broader market overview data, it's configured to use the "Yahoo Finance by API DOJO" via RapidAPI.
+PocketProfits is a Telegram bot designed to provide stock analysis and financial insights. It leverages the Google Gemini API for AI-driven analysis and yfinance for fetching stock data. For broader market overview data, it's configured to use the "Yahoo Finance by API DOJO" via RapidAPI.
 
 ## Features
 
@@ -22,36 +22,20 @@ Finance Bot AI is a Telegram bot designed to provide stock analysis and financia
 
 ## Setup Instructions
 
-**1. Clone the Repository (if applicable)**
-   If your code is in a Git repository, clone it:
+**1. Clone the Repository**
+   Clone the PocketProfits repository from GitHub:
    ```bash
-   git clone <your-repository-url>
-   cd <repository-folder-name>
+   git clone https://github.com/pankajtinwal/PocketProfits.git
+   cd PocketProfits
    ```
-   If you have the files locally, navigate to the project directory.
 
-**2. Create a Virtual Environment (Recommended)**
-   It's highly recommended to use a virtual environment to manage project dependencies.
-   ```bash
-   python -m venv venv
-   ```
-   Activate the virtual environment:
-   *   On Windows:
-     ```bash
-     .\venv\Scripts\activate
-     ```
-   *   On macOS/Linux:
-     ```bash
-     source venv/bin/activate
-     ```
-
-**3. Install Dependencies**
-   Install the required Python packages using the `requirements.txt` file:
+**2. Install Dependencies**
+   Install the required Python packages using the `requirements.txt` file. Navigate to the project directory (`PocketProfits`) if you haven't already, then run:
    ```bash
    pip install -r requirements.txt
    ```
 
-**4. Obtain API Keys and Token**
+**3. Obtain API Keys and Token**
 
    You will need the following API keys and tokens:
 
@@ -75,9 +59,9 @@ Finance Bot AI is a Telegram bot designed to provide stock analysis and financia
       4.  Subscribe to the API (it usually has a free basic plan that should be sufficient for moderate use).
       5.  Once subscribed, navigate to the API's dashboard or endpoints tab. You will find your `X-RapidAPI-Key` there. Copy this key.
 
-**5. Configure Environment Variables**
+**4. Configure Environment Variables**
 
-   Create a file named `.env` in the root directory of your project. Add your API keys and token to this file as follows:
+   Create a file named `.env` in the root directory of your project (`PocketProfits`). Add your API keys and token to this file as follows:
 
    ```env
    TELEGRAM_BOT_TOKEN=YOUR_TELEGRAM_BOT_TOKEN_HERE
