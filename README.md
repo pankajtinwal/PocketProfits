@@ -1,5 +1,8 @@
 # PocketProfits (Finance Bot AI) - Replit Setup
 
+![Pocket-Profits Screenshot](PocketProfits.png)
+
+
 PocketProfits is a Telegram bot designed to provide stock analysis and financial insights. It leverages the Google Gemini API for AI-driven analysis and yfinance for fetching stock data. For broader market overview data, it's configured to use the "Yahoo Finance by API DOJO" via RapidAPI.
 
 This guide explains how to set up and run PocketProfits on **Replit** by importing the GitHub repository.
